@@ -1,0 +1,10 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App userData={{"name":"robert downey","emailId":"pidugubunny534@gmail.com","phoneNo":"234098764","projects":[{"title":"swanth","description":"swanth","technologies":["React"],"repoLink":"swanth","_id":"6753d59feeaab2330cbb56e5"}],"resume":"","experiences":[{"companyName":"swanth","logo":"http://res.cloudinary.com/dgthxi1sd/image/upload/v1733547348/evolumin/qw1jmjhoswfo82dmqqbp.png","role":"swanth","description":"swanth","technologiesUsed":[],"duration":"swanth","_id":"6753d59feeaab2330cbb56e6"}],"techStacks":["React","C++"],"contactDetails":["swanth"],"codingProfiles":["https://www.geeksforgeeks.org/user/swanith_the_man/"],"certifications":["http://res.cloudinary.com/dgthxi1sd/image/upload/v1733539325/evolumin/haqzkmvvlx zcrauzdrlx.jpg","http://res.cloudinary.com/dgthxi1sd/image/upload/v1733539325/evolumin/haqzkmvvlx zcrauzdrlx.jpg","http://res.cloudinary.com/dgthxi1sd/image/upload/v1733539325/evolumin/haqzkmvvlx zcrauzdrlx.jpg","http://res.cloudinary.com/dgthxi1sd/image/upload/v1733539325/evolumin/haqzkmvvlx zcrauzdrlx.jpg","http://res.cloudinary.com/dgthxi1sd/image/upload/v1733539325/evolumin/haqzkmvvlx zcrauzdrlx.jpg"],"achievements":[{"title":"swanith","description":"swanith","_id":"6753d59feeaab2330cbb56e7"},{"title":"swanith","description":"swanith","_id":"6753d59feeaab2330cbb56e8"},{"title":"swanith","description":"swanith","_id":"6753d59feeaab2330cbb56e9"},{"title":"swanith","description":"swanith","_id":"6753d59feeaab2330cbb56ea"},{"title":"swanith","description":"swanith","_id":"6753d59feeaab2330cbb56eb"},{"title":"swanith","description":"swanith swanithswanithswanithswanithswanith","_id":"6753d59feeaab2330cbb56ec"}],"about":"swanith","profilePhoto":"http://res.cloudinary.com/dgthxi1sd/image/upload/v1733547325/evolumin/r6mublueut8rrzcourgz.jpg","_id":"6753d59feeaab2330cbb56e4","createdAt":"2024-12-07T04:57:03.675Z","updatedAt":"2024-12-07T04:57:03.675Z","__v":0}} />
+  </StrictMode>,
+)
